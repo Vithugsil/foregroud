@@ -13,15 +13,20 @@
         android:id="@+id/button_start_service"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Iniciar Serviço em Primeiro Plano"
-        />
+        android:text="Iniciar Serviço em Primeiro Plano" />
 
     <Button
         android:id="@+id/button_stop_service"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Parar Serviço"
-        android:layout_marginTop="16dp"
-        />
+        android:layout_marginTop="16dp"/>
 
+    <TextView
+        android:id="@+id/textview_service_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Serviço Inativo"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"/>
 </LinearLayout>
